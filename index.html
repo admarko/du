@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<!--Info:
+<!-- <!DOCTYPE html>
+Info:
 Date: 12/12/16
 Author: Alex Markowitz
 Website: www.admarko.xyz
@@ -17,23 +17,31 @@ Contact: admarko@uchicago.edu
   <title>Delta Upsilon - UChicago</title>
   <link rel="stylesheet" type="text/css" href="style.css"> <!-- CSS file -->
   <link rel="stylesheet" href="http://bootswatch.com/paper/bootstrap.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-primary bg-inverse">
-    <div class="container-fluid">
+  <nav class="navbar">
+    <div>
       <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        Chicago Chapter </br>
-        Of Delta Upsilon </br>
-        Fraternity
-        <!-- <a class="navbar-brand" href="#">
-          <img alt="Brand" id="logo" src="images/badge.png">
-        </a> -->
+
+      <div class="navbar-header navbar-brand ">
+        <div class="col-md-1">
+          <a href="#">
+            <img id="logo" src="images/badge.png">
+          </a>
+        </div>
+        <div class="col-md-offset-1 col-md-5 text-left text-uppercase" id="headtext">
+          Chicago Chapter of Delta Upsilon Fraternity
+        </div>
       </div>
 
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -44,10 +52,14 @@ Contact: admarko@uchicago.edu
   </nav>
   <!-- End of Nav -->
 
-  <div>
-    <img alt="Brand" id="homepage" src="images/homepage.jpg">
+  <div class="col-md-offset-4 col-md-4" id="title">
+    <h1 class="text-uppercase">
+      Justice our foundation
+    </h1>
+    <h4>
+      <em> Founded in 1834. Chartered in 1901. </em>
+    </h4>
   </div>
-
 
 </body>
 </html>

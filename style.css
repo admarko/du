@@ -6,5 +6,58 @@
 */
 
 #logo{
-  height: 30px;
+  height: 50px;
+}
+
+.navbar{
+   background: transparent;
+
+}
+
+.navbar-header, .navbar-brand, .navbar-collapse > ul > li > a{
+  padding-top: 20px;
+  color: white;
+  font-family: 'Robato', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.navbar-right{
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+#headtext{
+  margin-left: 10px;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Robato', sans-serif;
+}
+
+#title{
+  padding-top: 115px;
+}
+
+#title > h1, #title > h4{
+  color: white;
+  font-family: "Sans-serif";
+}
+
+#title > h1{
+  font-weight: 900;
+  font-size: 70px;
+  letter-spacing: 1px;
+  font-family: "Roboto";
+}
+
+body{
+    text-align: center;
+    color: black;
+    background: url("images/homepage.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
 }
