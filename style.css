@@ -11,20 +11,14 @@
 
 .navbar{
    background: transparent;
-
 }
 
-.navbar-header, .navbar-brand, .navbar-collapse > ul > li > a{
-  padding-top: 20px;
+.navbar-header, .navbar-right > li > a{
   color: white;
   font-family: 'Robato', sans-serif;
   font-size: 20px;
   line-height: 20px;
-}
-
-.navbar-right{
-  padding-top: 20px;
-  padding-right: 20px;
+  padding: 20px;
 }
 
 #headtext{
@@ -35,7 +29,7 @@
 }
 
 #title{
-  padding-top: 115px;
+  padding-top: 100px;
 }
 
 #title > h1, #title > h4{
