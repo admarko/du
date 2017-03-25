@@ -17,6 +17,9 @@ Contact: admarko@uchicago.edu
   <title>Delta Upsilon - UChicago</title>
   <link rel="stylesheet" type="text/css" href="style.css"> <!-- CSS file -->
   <link rel="stylesheet" href="http://bootswatch.com/paper/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
@@ -45,6 +48,7 @@ Contact: admarko@uchicago.edu
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="leadership.html">Leadership</a></li>
+          <li><a href="news.html">News</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -55,9 +59,54 @@ Contact: admarko@uchicago.edu
     <h1 class="text-uppercase">
       Justice our foundation
     </h1>
+
     <h4>
       <em> Founded in 1834. Chartered in 1901. </em>
     </h4>
+
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseWelcome" aria-expanded="false" aria-controls="collapseWelcome">
+    Welcome to Delta Upsilon Fraternity
+    </button>
+    <div class="collapse" id="collapseWelcome">
+      <div class="well">
+      Founded in 1834 at Williams College, Delta Upsilon is the seventh oldest fraternity in North America. For over 180 years, Delta Upsilon has maintained a commitment to its Four Founding Principles:
+       <ul>
+         <li> Promotion of Friendship </li>
+          <li> Development of Character </li>
+          <li> Diffusion of Liberal Culture </li>
+          <li> Advancement of Justice </li>
+        </ul>
+      This charge challenges our brothers to cultivate what is finest in themselves and others; to go beyond the familiar and discover goodness in all corners of life.
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="col-md-4">
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseAbout" aria-expanded="false" aria-controls="collapseAbout">
+        ABOUT
+      </button>
+      <div class="collapse" id="collapseAbout">
+        <div class="well">
+        Find out about our organization, mission, members, and the history behind our decades of brotherhood.
+        <a href="about.html"> Learn More </a>
+        <img class="img-thumbnail" src="images/mooseroom.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseNews" aria-expanded="false" aria-controls="collapseNews">
+        NEWS
+      </button>
+      <div class="collapse" id="collapseNews">
+        <div class="well">
+        For over 100 years, our chapter has played an essential role in the lives of our brothers. See what they're doing today.
+        <a href="news.html"> Find Out How </a>
+        <img class="img-thumbnail" src="images/news.jpeg">
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>

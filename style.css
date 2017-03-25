@@ -11,6 +11,7 @@
 
 .navbar{
    background: transparent;
+   border-style: dotted;e
 }
 
 .navbar-header, .navbar-right > li > a{
@@ -19,6 +20,7 @@
   font-size: 20px;
   line-height: 20px;
   padding: 20px;
+
 }
 
 #headtext{
@@ -54,4 +56,14 @@ body{
     background-attachment: fixed;
     height: 100%;
     width: 100%;
+}
+
+.well{
+  padding: -10px;
+  
+}
+
+.well > ul{
+  list-style: none;
+  margin: 5px;
 }
