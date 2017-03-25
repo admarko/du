@@ -10,8 +10,7 @@
 }
 
 .navbar{
-   background: transparent;
-   border-style: dotted;e
+   position: fixed;
 }
 
 .navbar-header, .navbar-right > li > a{
@@ -60,10 +59,30 @@ body{
 
 .well{
   padding: -10px;
-  
+  color: black;
+
 }
 
 .well > ul{
   list-style: none;
   margin: 5px;
+}
+
+.secbut{
+  padding-top: 300px;
+  color: black;
+}
+
+.panel{
+  margin: 0px;
+  padding: 0px;
+}
+
+footer{
+  color: white;
+  left:0px;
+  bottom:0px;
+  height:20px;
+  width:100%;
+  background: transparent;
 }
